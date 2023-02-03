@@ -62,7 +62,7 @@ export default function App(props) {
                                     <Header height={"auto"} mb={40} sx={(theme) => ({backgroundColor: myTheme[theme.colorScheme].headerBackground, boxShadow: myTheme[theme.colorScheme].headerShadow})}>
                                         <Grid columns={2} m={"md"} justify={"space-between"}>
                                             <div>
-                                                <Title order={1} size={20} p={"md"} display={"inline"} onClick={() => router.push("/")} style={{fontVariant: "small-caps"}}>How to Put Almost Anything in a Browser</Title>
+                                                <Title order={1} size={20} p={"md"} display={"inline"} onClick={() => router.push("/")} style={{fontVariant: "small-caps"}}>Periapsis: The Phelions</Title>
                                                 <Title order={2} size={12} p={"md"} pt={"xs"} pb={0} color={"dimmed"} style={{fontVariant: "small-caps"}}>MIT Media Lab</Title>
                                                 <Title order={2} size={12} p={"md"} pt={0} style={{fontVariant: "small-caps"}}>Festival of Learning 2023</Title>
                                             </div>
